@@ -195,9 +195,36 @@ always contiguous — finite differences over `centroide` need no gap handling.
 
 ## Citation
 
-Please cite the paper when using this code or the trajectory data. A
-`CITATION.cff` file will be added once the DOI is issued.
+If you use this code or the trajectory data, please cite both the repository
+and the article. GitHub reads `CITATION.cff`, so the formatted citation is also
+available from the *Cite this repository* button on the project page.
+
+```bibtex
+@article{wolff2026ptv,
+  title   = {A deep learning-enhanced PTV framework for simultaneous
+             translational and rotational tracking of rod-like particles in
+             non-Newtonian fluids},
+  author  = {Wolff, Lukas and Maggi, Crist\'obal and Toro, J. P. and
+             Delpiano, Jos\'e and G\'omez, Jorge and Paul, \'Alvaro and
+             Moreno-Casas, Patricio A.},
+  journal = {Engineering Research Express},
+  year    = {2026},
+  note    = {In review}
+}
+```
+
+The DOI, volume and pages will be added to `CITATION.cff` once the article is
+accepted.
 
 ## License
 
-To be defined by the authors before publication.
+Released under the [MIT License](LICENSE).
+
+The annotated training dataset is distributed separately through Roboflow under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see the dataset link
+above for its terms.
+
+## Contact
+
+Patricio A. Moreno-Casas — patriciomoreno@miuandes.cl
+Universidad de los Andes, Santiago, Chile

@@ -1,0 +1,100 @@
+# ---------------------------------------------------------------------------
+# Citation metadata for this repository.
+# GitHub renders a "Cite this repository" button from this file.
+#
+# TO COMPLETE BEFORE PUBLICATION:
+#   * ORCID identifiers for every author (the orcid: lines are commented out).
+#   * Given names for J. P. Toro; only the initials were available.
+#   * doi: and the journal volume, issue and pages, once the article is
+#     accepted. Confirm the journal name: the manuscript is under review at
+#     Engineering Research Express (ERX-119956), while the IOP proof carries a
+#     Measurement Science and Technology header.
+#   * date-released, when the repository is tagged.
+# ---------------------------------------------------------------------------
+cff-version: 1.2.0
+title: >-
+  A deep learning-enhanced PTV framework for rod-like particles in
+  non-Newtonian fluids
+message: >-
+  If you use this software or the trajectory data, please cite both this
+  repository and the accompanying article.
+type: software
+authors:
+  - given-names: Lukas
+    family-names: Wolff
+    affiliation: Universidad de los Andes, Santiago, Chile
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: Cristóbal
+    family-names: Maggi
+    affiliation: Universidad de los Andes, Santiago, Chile
+  - given-names: J. P.
+    family-names: Toro
+    affiliation: Universidad de los Andes, Santiago, Chile
+  - given-names: José
+    family-names: Delpiano
+    affiliation: Universidad de los Andes, Santiago, Chile
+  - given-names: Jorge
+    family-names: Gómez
+    affiliation: Universidad de los Andes, Santiago, Chile
+  - given-names: Álvaro
+    family-names: Paul
+    affiliation: Universidad de los Andes, Santiago, Chile
+  - given-names: Patricio A.
+    family-names: Moreno-Casas
+    affiliation: Universidad de los Andes, Santiago, Chile
+    email: patriciomoreno@miuandes.cl
+repository-code: >-
+  https://github.com/patricioamoreno/PaperCode-A-DL-enhanced-PTV-framework
+abstract: >-
+  Tracking pipeline combining YOLOv11 instance segmentation with a customised
+  alpha-beta-gamma predictive filter to reconstruct the simultaneous
+  translational and rotational trajectories of rod-like steel fibers suspended
+  in a Carbopol yield-stress gel. The repository contains the training and
+  tracking notebooks, the fine-tuned segmentation weights, and the trajectory
+  datasets for six fiber loadings between 25 and 800 fibers.
+keywords:
+  - particle tracking velocimetry
+  - instance segmentation
+  - YOLOv11
+  - rod-like particles
+  - non-Newtonian fluids
+  - yield-stress fluids
+  - fiber dynamics
+  - alpha-beta-gamma filter
+  - Lagrangian tracking
+license: MIT
+version: 1.0.0
+# date-released: 2026-01-01
+preferred-citation:
+  type: article
+  title: >-
+    A deep learning-enhanced PTV framework for simultaneous translational and
+    rotational tracking of rod-like particles in non-Newtonian fluids
+  authors:
+    - given-names: Lukas
+      family-names: Wolff
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: Cristóbal
+      family-names: Maggi
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: J. P.
+      family-names: Toro
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: José
+      family-names: Delpiano
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: Jorge
+      family-names: Gómez
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: Álvaro
+      family-names: Paul
+      affiliation: Universidad de los Andes, Santiago, Chile
+    - given-names: Patricio A.
+      family-names: Moreno-Casas
+      affiliation: Universidad de los Andes, Santiago, Chile
+      email: patriciomoreno@miuandes.cl
+  journal: Engineering Research Express
+  publisher:
+    name: IOP Publishing
+  year: 2026
+  # doi: "10.1088/xxxx-xxxx/xxxxxx"
