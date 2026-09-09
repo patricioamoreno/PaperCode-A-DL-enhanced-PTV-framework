@@ -1,1 +1,14 @@
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Pipeline outputs and inputs that are not distributed
+runs/
+images/
+*.zip

@@ -1,0 +1,14 @@
+# Python 3.12
+#
+# Pinned to the versions used to produce the published results. The notebooks
+# use the current Ultralytics argument names, so newer 8.3.x releases also work,
+# but segmentation output can differ slightly between versions.
+ultralytics==8.3.9
+opencv-python>=4.8
+numpy>=1.26
+matplotlib>=3.8
+# Training only: pulls the annotated dataset from Roboflow.
+roboflow>=1.1.49
+supervision>=0.25
+# Notebook interface.
+jupyter>=1.0
